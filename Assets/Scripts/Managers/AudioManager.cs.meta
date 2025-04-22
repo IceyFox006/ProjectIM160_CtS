@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 2f0f9a3358799e748b5ec811975a6c85
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - _UIAudio: {instanceID: 0}
+  - _buttonSFX: {fileID: 8300000, guid: 35cf7766e9e2aa542811e896fde57989, type: 3}
+  - _InteractAudio: {instanceID: 0}
+  - _pickUpAudioSFX: {fileID: 8300000, guid: ba39bf8baf6d13046889b2d64822381a, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

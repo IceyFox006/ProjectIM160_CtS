@@ -1,0 +1,147 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c3ee2864ffc4be4885e18210bf4d5ce, type: 3}
+  m_Name: Task1.0_TheCabin
+  m_EditorClassIdentifier: 
+  _dialogueLines:
+  - _requirement:
+      _character: {fileID: 0}
+      _inequalityCheck: 0
+      _score: 0
+    _effectFlag: 0
+    _speakerCharacter: {fileID: 11400000, guid: cfb9f27ccd4f3f546bc4d850310e0fda, type: 2}
+    _characterExpression: 4
+    _text: Okay we're here!
+    _characterRelations: []
+    _responses: []
+  - _requirement:
+      _character: {fileID: 0}
+      _inequalityCheck: 0
+      _score: 0
+    _effectFlag: 0
+    _speakerCharacter: {fileID: 11400000, guid: cfb9f27ccd4f3f546bc4d850310e0fda, type: 2}
+    _characterExpression: 5
+    _text: I know it doesn't look too fancy or anything, but it's fun to hang out
+      in!
+    _characterRelations: []
+    _responses: []
+  - _requirement:
+      _character: {fileID: 0}
+      _inequalityCheck: 0
+      _score: 0
+    _effectFlag: 0
+    _speakerCharacter: {fileID: 11400000, guid: cfb9f27ccd4f3f546bc4d850310e0fda, type: 2}
+    _characterExpression: 5
+    _text: It's pretty chilly outside since its fall, so if you want I can start
+      a fire when we go inside.
+    _characterRelations: []
+    _responses: []
+  - _requirement:
+      _character: {fileID: 0}
+      _inequalityCheck: 0
+      _score: 0
+    _effectFlag: 0
+    _speakerCharacter: {fileID: 11400000, guid: cfb9f27ccd4f3f546bc4d850310e0fda, type: 2}
+    _characterExpression: 6
+    _text: Well, I can try to start one...
+    _characterRelations: []
+    _responses: []
+  - _requirement:
+      _character: {fileID: 0}
+      _inequalityCheck: 0
+      _score: 0
+    _effectFlag: 0
+    _speakerCharacter: {fileID: 11400000, guid: cfb9f27ccd4f3f546bc4d850310e0fda, type: 2}
+    _characterExpression: 6
+    _text: The last time I tried it, I set a few things on fire and the house is
+      really smelly because of it.
+    _characterRelations: []
+    _responses: []
+  - _requirement:
+      _character: {fileID: 0}
+      _inequalityCheck: 0
+      _score: 0
+    _effectFlag: 0
+    _speakerCharacter: {fileID: 11400000, guid: cfb9f27ccd4f3f546bc4d850310e0fda, type: 2}
+    _characterExpression: 6
+    _text: Actually, maybe I shouldn't...
+    _characterRelations: []
+    _responses: []
+  - _requirement:
+      _character: {fileID: 0}
+      _inequalityCheck: 0
+      _score: 0
+    _effectFlag: 0
+    _speakerCharacter: {fileID: 11400000, guid: cfb9f27ccd4f3f546bc4d850310e0fda, type: 2}
+    _characterExpression: 5
+    _text: Anyways, there's a bunch of stuff we can do! Like play tag or collect
+      sticks!
+    _characterRelations: []
+    _responses: []
+  - _requirement:
+      _character: {fileID: 11400000, guid: cdc5d5dba24035345a9ac84f9e27665d, type: 2}
+      _inequalityCheck: 1
+      _score: 8
+    _effectFlag: 0
+    _speakerCharacter: {fileID: 11400000, guid: cfb9f27ccd4f3f546bc4d850310e0fda, type: 2}
+    _characterExpression: 4
+    _text: There's probably a bunch of other stuff too!
+    _characterRelations: []
+    _responses: []
+  - _requirement:
+      _character: {fileID: 11400000, guid: cdc5d5dba24035345a9ac84f9e27665d, type: 2}
+      _inequalityCheck: 1
+      _score: 8
+    _effectFlag: 0
+    _speakerCharacter: {fileID: 11400000, guid: cfb9f27ccd4f3f546bc4d850310e0fda, type: 2}
+    _characterExpression: 4
+    _text: I was really excited for today, so I got up super early and picked some
+      mushrooms to snack on while we play!
+    _characterRelations: []
+    _responses: []
+  - _requirement:
+      _character: {fileID: 11400000, guid: cdc5d5dba24035345a9ac84f9e27665d, type: 2}
+      _inequalityCheck: 1
+      _score: 8
+    _effectFlag: 0
+    _speakerCharacter: {fileID: 11400000, guid: cfb9f27ccd4f3f546bc4d850310e0fda, type: 2}
+    _characterExpression: 5
+    _text: So, what do you want to do first?
+    _characterRelations: []
+    _responses:
+    - _text: Tag.
+      _dialogueBranch: {fileID: 11400000, guid: 9b91a3b8e02c1514388faaa7014ee225, type: 2}
+    - _text: Sticks.
+      _dialogueBranch: {fileID: 11400000, guid: c99f997e5539d4e45af4ac2d03015881, type: 2}
+    - _text: Draw.
+      _dialogueBranch: {fileID: 11400000, guid: b8fec0278f673b046a72880ee2ceadfa, type: 2}
+    - _text: Mushrooms.
+      _dialogueBranch: {fileID: 11400000, guid: efac1dc25bb84d44a9c02133d07f17d0, type: 2}
+    - _text: Birds.
+      _dialogueBranch: {fileID: 11400000, guid: 56eebd1ca80c60448adeb09c559a937c, type: 2}
+  - _requirement:
+      _character: {fileID: 11400000, guid: e197bd5037e4703458e019d85b3914ab, type: 2}
+      _inequalityCheck: 1
+      _score: 3
+    _effectFlag: 0
+    _speakerCharacter: {fileID: 11400000, guid: cfb9f27ccd4f3f546bc4d850310e0fda, type: 2}
+    _characterExpression: 6
+    _text: Since you're my guest, I'll let you choose what we do first.
+    _characterRelations: []
+    _responses:
+    - _text: Tag.
+      _dialogueBranch: {fileID: 11400000, guid: 7f407da969ae52b4787d225f73ecf19f, type: 2}
+    - _text: Sticks.
+      _dialogueBranch: {fileID: 11400000, guid: 7f407da969ae52b4787d225f73ecf19f, type: 2}
+    - _text: Talk.
+      _dialogueBranch: {fileID: 11400000, guid: 22410b65f0e116c4ca599df75d77ed1a, type: 2}
+  _activeQuest: {fileID: 0}

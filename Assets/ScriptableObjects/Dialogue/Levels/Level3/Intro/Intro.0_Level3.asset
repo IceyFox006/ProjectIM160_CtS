@@ -1,0 +1,133 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c3ee2864ffc4be4885e18210bf4d5ce, type: 3}
+  m_Name: Intro.0_Level3
+  m_EditorClassIdentifier: 
+  _dialogueLines:
+  - _requirement:
+      _character: {fileID: 0}
+      _inequalityCheck: 0
+      _score: 0
+    _effectFlag: 0
+    _speakerCharacter: {fileID: 11400000, guid: cfb9f27ccd4f3f546bc4d850310e0fda, type: 2}
+    _characterExpression: 4
+    _text: Good morning!
+    _characterRelations: []
+    _responses: []
+  - _requirement:
+      _character: {fileID: 0}
+      _inequalityCheck: 0
+      _score: 0
+    _effectFlag: 2
+    _speakerCharacter: {fileID: 11400000, guid: cfb9f27ccd4f3f546bc4d850310e0fda, type: 2}
+    _characterExpression: 4
+    _text: The sun is rising and it's a really good day!
+    _characterRelations: []
+    _responses: []
+  - _requirement:
+      _character: {fileID: 11400000, guid: 6558a194cedf81143af777eea43ad7b5, type: 2}
+      _inequalityCheck: 1
+      _score: 0
+    _effectFlag: 0
+    _speakerCharacter: {fileID: 11400000, guid: cfb9f27ccd4f3f546bc4d850310e0fda, type: 2}
+    _characterExpression: 4
+    _text: I think the fog is clear enough for you to come to my house!
+    _characterRelations: []
+    _responses: []
+  - _requirement:
+      _character: {fileID: 11400000, guid: 6558a194cedf81143af777eea43ad7b5, type: 2}
+      _inequalityCheck: 1
+      _score: 0
+    _effectFlag: 0
+    _speakerCharacter: {fileID: 11400000, guid: cfb9f27ccd4f3f546bc4d850310e0fda, type: 2}
+    _characterExpression: 2
+    _text: It took its sweet time on it too!
+    _characterRelations: []
+    _responses: []
+  - _requirement:
+      _character: {fileID: 11400000, guid: 6558a194cedf81143af777eea43ad7b5, type: 2}
+      _inequalityCheck: 1
+      _score: 0
+    _effectFlag: 0
+    _speakerCharacter: {fileID: 11400000, guid: cfb9f27ccd4f3f546bc4d850310e0fda, type: 2}
+    _characterExpression: 5
+    _text: There's no point to keep talking about that though. It doesn't really
+      matter anyways.
+    _characterRelations: []
+    _responses: []
+  - _requirement:
+      _character: {fileID: 11400000, guid: 6558a194cedf81143af777eea43ad7b5, type: 2}
+      _inequalityCheck: 1
+      _score: 0
+    _effectFlag: 0
+    _speakerCharacter: {fileID: 11400000, guid: cfb9f27ccd4f3f546bc4d850310e0fda, type: 2}
+    _characterExpression: 5
+    _text: My house is at the edge of The Woods, so it's a bit of a walk, but I would
+      love to have a playdate!
+    _characterRelations: []
+    _responses: []
+  - _requirement:
+      _character: {fileID: 11400000, guid: 6558a194cedf81143af777eea43ad7b5, type: 2}
+      _inequalityCheck: 1
+      _score: 0
+    _effectFlag: 0
+    _speakerCharacter: {fileID: 11400000, guid: cfb9f27ccd4f3f546bc4d850310e0fda, type: 2}
+    _characterExpression: 6
+    _text: I mean, only if you want to though.
+    _characterRelations: []
+    _responses:
+    - _text: Yes.
+      _dialogueBranch: {fileID: 11400000, guid: 259c060990e5cc24fbeff35524308041, type: 2}
+    - _text: No.
+      _dialogueBranch: {fileID: 11400000, guid: 656e9bacea88e77439b98365008ec59f, type: 2}
+  - _requirement:
+      _character: {fileID: 11400000, guid: 6558a194cedf81143af777eea43ad7b5, type: 2}
+      _inequalityCheck: 2
+      _score: 1
+    _effectFlag: 0
+    _speakerCharacter: {fileID: 11400000, guid: cfb9f27ccd4f3f546bc4d850310e0fda, type: 2}
+    _characterExpression: 4
+    _text: We're gonna feed my friends again today. This is probably gonna be the
+      last time though.
+    _characterRelations: []
+    _responses: []
+  - _requirement:
+      _character: {fileID: 11400000, guid: 6558a194cedf81143af777eea43ad7b5, type: 2}
+      _inequalityCheck: 2
+      _score: 1
+    _effectFlag: 0
+    _speakerCharacter: {fileID: 11400000, guid: cfb9f27ccd4f3f546bc4d850310e0fda, type: 2}
+    _characterExpression: 6
+    _text: I mean, always stay in The Woods with me if you want.
+    _characterRelations: []
+    _responses: []
+  - _requirement:
+      _character: {fileID: 11400000, guid: 6558a194cedf81143af777eea43ad7b5, type: 2}
+      _inequalityCheck: 2
+      _score: 1
+    _effectFlag: 0
+    _speakerCharacter: {fileID: 11400000, guid: cfb9f27ccd4f3f546bc4d850310e0fda, type: 2}
+    _characterExpression: 6
+    _text: Some of my friends chose to, but more friends would always be great.
+    _characterRelations: []
+    _responses: []
+  - _requirement:
+      _character: {fileID: 11400000, guid: 6558a194cedf81143af777eea43ad7b5, type: 2}
+      _inequalityCheck: 2
+      _score: 1
+    _effectFlag: 0
+    _speakerCharacter: {fileID: 11400000, guid: cfb9f27ccd4f3f546bc4d850310e0fda, type: 2}
+    _characterExpression: 6
+    _text: I don't wanna think about that right now though.
+    _characterRelations: []
+    _responses: []
+  _activeQuest: {fileID: 0}

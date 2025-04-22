@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c3ee2864ffc4be4885e18210bf4d5ce, type: 3}
+  m_Name: (S)Outro.3_End1
+  m_EditorClassIdentifier: 
+  _dialogueLines:
+  - _requirement:
+      _character: {fileID: 11400000, guid: 2e502151811871649b9eb14402c76098, type: 2}
+      _inequalityCheck: 2
+      _score: 10
+    _effectFlag: 0
+    _speakerCharacter: {fileID: 11400000, guid: cfb9f27ccd4f3f546bc4d850310e0fda, type: 2}
+    _characterExpression: 7
+    _text: ...
+    _characterRelations:
+    - _character: {fileID: 11400000, guid: 2e502151811871649b9eb14402c76098, type: 2}
+      _relationshipChangeValue: 1
+    _responses:
+    - _text: '*Stay*'
+      _dialogueBranch: {fileID: 11400000}
+    - _text: '*Leave*'
+      _dialogueBranch: {fileID: 11400000, guid: 7154d119be953cb4fa9bd87cbe6a9650, type: 2}
+  - _requirement:
+      _character: {fileID: 11400000, guid: 2e502151811871649b9eb14402c76098, type: 2}
+      _inequalityCheck: 3
+      _score: 10
+    _effectFlag: 0
+    _speakerCharacter: {fileID: 11400000, guid: cfb9f27ccd4f3f546bc4d850310e0fda, type: 2}
+    _characterExpression: 2
+    _text: Why won't you just LEAVE ME already?!"
+    _characterRelations:
+    - _character: {fileID: 11400000, guid: 2e502151811871649b9eb14402c76098, type: 2}
+      _relationshipChangeValue: 1
+    _responses:
+    - _text: '*Stay*'
+      _dialogueBranch: {fileID: 11400000, guid: d91524bdbe1c41c4b9cc0229f0e9f2ef, type: 2}
+    - _text: '*Leave*'
+      _dialogueBranch: {fileID: 11400000, guid: 7154d119be953cb4fa9bd87cbe6a9650, type: 2}
+  _activeQuest: {fileID: 0}
