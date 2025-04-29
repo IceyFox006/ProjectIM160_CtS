@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 8919295945091024944}
   - component: {fileID: 2741706322018717485}
   - component: {fileID: -5740259255696159201}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Fog
   m_TagString: Boundary
   m_Icon: {fileID: 0}

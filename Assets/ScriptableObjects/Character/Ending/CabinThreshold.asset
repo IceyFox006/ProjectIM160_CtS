@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: CabinThreshold
   m_EditorClassIdentifier: 
   _name: 
-  _relationshipScore: 1
+  _relationshipScore: 0
   _characterExpressions: []

@@ -23,13 +23,13 @@ public class Credits : MonoBehaviour
         switch (StaticData.End)
         {
             case Enums.End.Loop:
-                daysLeftText.text = "4 days left.";
+                daysLeftText.text = "4 days left./nTime to go feed the squirrels!";
                 break;
             case Enums.End.EliotLeave:
                 daysLeftText.text = "0 days left.";
                 break;
             case Enums.End.Stay:
-                daysLeftText.text = "2147483647 days left.";
+                daysLeftText.text = "19972003 days left.";
                 break;
         }
     }

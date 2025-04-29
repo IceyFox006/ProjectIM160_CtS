@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: End3
   m_EditorClassIdentifier: 
   _name: Friends Forever
-  _relationshipScore: 10
+  _relationshipScore: 1
   _characterExpressions: []

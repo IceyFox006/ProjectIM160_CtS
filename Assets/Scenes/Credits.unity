@@ -215,29 +215,31 @@ PrefabInstance:
         RPG Essentials Free
 
 
-        Micah
-        Cosby
+        Elodie
+        Spangler
 
-        John Greenan
+        Brandon Koederitz
 
-        Josh Bond
+        Nicholas Williams
 
-        Elodie Spangler
-
-        Nicholas
-        Williams
+        John
+        Greenan
 
         Eve Krainik
 
         Edward Parra
 
-        Brandon Migala
+        Tommy Santini
 
-        Thomas
-        Santini
+        Aoiidee
+
+        Turbo899
 
 
-        The campus squirrels.'
+        The
+        campus squirrels.
+
+        Nutty, the only squirrel I had not named Eliot.'
       objectReference: {fileID: 0}
     - target: {fileID: 6767028287880045894, guid: 731d1537969f22149936140ce855d124, type: 3}
       propertyPath: m_fontSize
@@ -849,7 +851,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -300, y: 0}
+  m_AnchoredPosition: {x: -550, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1729258644
@@ -872,8 +874,8 @@ MonoBehaviour:
   m_ChildAlignment: 1
   m_StartCorner: 0
   m_StartAxis: 1
-  m_CellSize: {x: 500, y: 64}
-  m_Spacing: {x: 128, y: 0}
+  m_CellSize: {x: 1000, y: 64}
+  m_Spacing: {x: 64, y: 0}
   m_Constraint: 0
   m_ConstraintCount: 2
 --- !u!1001 &1737937179

@@ -32,7 +32,7 @@ MonoBehaviour:
     _effectFlag: 0
     _speakerCharacter: {fileID: 11400000, guid: cfb9f27ccd4f3f546bc4d850310e0fda, type: 2}
     _characterExpression: 5
-    _text: You kinda remaind me of my ma. She was really smart too.
+    _text: You kinda remind me of my ma. She was really smart too.
     _characterRelations: []
     _responses: []
   - _requirement:

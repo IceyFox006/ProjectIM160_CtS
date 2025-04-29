@@ -24,6 +24,7 @@ public class HUD : MonoBehaviour
     /// </summary>
     public void Button_Move()
     {
+        Debug.Log("BoundaryAhead\t\t\t" + BoundaryDetector.BoundaryAhead);
         if (!CoderMethods.IsMoving && !BoundaryDetector.BoundaryAhead)
         {
             switch (faceDirection)
@@ -159,6 +160,5 @@ public class HUD : MonoBehaviour
             _inventory.GetComponent<Animator>().Play("DISABLE");
             _pauseButton.GetComponent<Animator>().Play("DISABLE");
         }
-
     }
 }
