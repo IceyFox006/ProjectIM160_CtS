@@ -237,9 +237,7 @@ PrefabInstance:
 
 
         The
-        campus squirrels.
-
-        Nutty, the only squirrel I had not named Eliot.'
+        campus squirrels.'
       objectReference: {fileID: 0}
     - target: {fileID: 6767028287880045894, guid: 731d1537969f22149936140ce855d124, type: 3}
       propertyPath: m_fontSize
@@ -441,6 +439,135 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1001 &1209917222
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2111661095}
+    m_Modifications:
+    - target: {fileID: 2330869945695546702, guid: 54159618d74288444b868e1a9737f9b0, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2330869945695546702, guid: 54159618d74288444b868e1a9737f9b0, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2330869945695546702, guid: 54159618d74288444b868e1a9737f9b0, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2330869945695546702, guid: 54159618d74288444b868e1a9737f9b0, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2330869945695546702, guid: 54159618d74288444b868e1a9737f9b0, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2330869945695546702, guid: 54159618d74288444b868e1a9737f9b0, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2330869945695546702, guid: 54159618d74288444b868e1a9737f9b0, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 600
+      objectReference: {fileID: 0}
+    - target: {fileID: 2330869945695546702, guid: 54159618d74288444b868e1a9737f9b0, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 48
+      objectReference: {fileID: 0}
+    - target: {fileID: 2330869945695546702, guid: 54159618d74288444b868e1a9737f9b0, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2330869945695546702, guid: 54159618d74288444b868e1a9737f9b0, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2330869945695546702, guid: 54159618d74288444b868e1a9737f9b0, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2330869945695546702, guid: 54159618d74288444b868e1a9737f9b0, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2330869945695546702, guid: 54159618d74288444b868e1a9737f9b0, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2330869945695546702, guid: 54159618d74288444b868e1a9737f9b0, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2330869945695546702, guid: 54159618d74288444b868e1a9737f9b0, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2330869945695546702, guid: 54159618d74288444b868e1a9737f9b0, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2330869945695546702, guid: 54159618d74288444b868e1a9737f9b0, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -1000
+      objectReference: {fileID: 0}
+    - target: {fileID: 2330869945695546702, guid: 54159618d74288444b868e1a9737f9b0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2330869945695546702, guid: 54159618d74288444b868e1a9737f9b0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2330869945695546702, guid: 54159618d74288444b868e1a9737f9b0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8333838758883827813, guid: 54159618d74288444b868e1a9737f9b0, type: 3}
+      propertyPath: m_Name
+      value: Task_Text
+      objectReference: {fileID: 0}
+    - target: {fileID: 9003808637092306381, guid: 54159618d74288444b868e1a9737f9b0, type: 3}
+      propertyPath: m_text
+      value: Thanks for playing my silly little squirrel game!
+      objectReference: {fileID: 0}
+    - target: {fileID: 9003808637092306381, guid: 54159618d74288444b868e1a9737f9b0, type: 3}
+      propertyPath: m_fontSize
+      value: 48
+      objectReference: {fileID: 0}
+    - target: {fileID: 9003808637092306381, guid: 54159618d74288444b868e1a9737f9b0, type: 3}
+      propertyPath: m_fontColor.b
+      value: 0.16470589
+      objectReference: {fileID: 0}
+    - target: {fileID: 9003808637092306381, guid: 54159618d74288444b868e1a9737f9b0, type: 3}
+      propertyPath: m_fontColor.g
+      value: 0.76470596
+      objectReference: {fileID: 0}
+    - target: {fileID: 9003808637092306381, guid: 54159618d74288444b868e1a9737f9b0, type: 3}
+      propertyPath: m_fontColor.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9003808637092306381, guid: 54159618d74288444b868e1a9737f9b0, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 48
+      objectReference: {fileID: 0}
+    - target: {fileID: 9003808637092306381, guid: 54159618d74288444b868e1a9737f9b0, type: 3}
+      propertyPath: m_fontColor32.rgba
+      value: 4280992767
+      objectReference: {fileID: 0}
+    - target: {fileID: 9003808637092306381, guid: 54159618d74288444b868e1a9737f9b0, type: 3}
+      propertyPath: m_HorizontalAlignment
+      value: 2
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 54159618d74288444b868e1a9737f9b0, type: 3}
 --- !u!1001 &1223747859
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1136,6 +1263,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   daysLeftText: {fileID: 2042559203}
+--- !u!224 &2024360624 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 2330869945695546702, guid: 54159618d74288444b868e1a9737f9b0, type: 3}
+  m_PrefabInstance: {fileID: 1209917222}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2042559201
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1162,7 +1294,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6767028287880045894, guid: 731d1537969f22149936140ce855d124, type: 3}
       propertyPath: m_fontColor32.rgba
-      value: 4280927231
+      value: 2737151
       objectReference: {fileID: 0}
     - target: {fileID: 7363434299646313110, guid: 731d1537969f22149936140ce855d124, type: 3}
       propertyPath: m_Pivot.x
@@ -1413,6 +1545,7 @@ RectTransform:
   m_Children:
   - {fileID: 2070287308}
   - {fileID: 1729258643}
+  - {fileID: 2024360624}
   m_Father: {fileID: 1786103169}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}

@@ -12,9 +12,17 @@ public class AnimationController : MonoBehaviour
 {
     private Enums.AnimationActions currentAction = Enums.AnimationActions.None;
     [SerializeField] private Enums.AnimationActions[] _animations;
+    [SerializeField] private string _permanentAnimationName = "";
 
+    private void Start()
+    {
+        if (_permanentAnimationName != null)
+            GetComponent<Animator>().Play(_permanentAnimationName.ToUpper());
+    }
     private void FixedUpdate()
     {
+        if (_permanentAnimationName != "")
+            return;
         CheckAnimation();
         UpdateAnimation();
     }

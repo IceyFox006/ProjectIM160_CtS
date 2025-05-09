@@ -16,5 +16,5 @@ MonoBehaviour:
   _introDialogue: {fileID: 11400000, guid: 152b64bb330005c40869bd87a5e18cdd, type: 2}
   _outroDialogue: {fileID: 11400000, guid: a39afb05a1af27049aa8a2f291c2b15d, type: 2}
   _sideQuest: {fileID: 11400000, guid: fb4d5da79dc83f7469af986f780570de, type: 2}
-  _worldSound: {fileID: 8300000, guid: b603c1746d5356748a7e3714e1d9dc90, type: 3}
-  _fogDensity: 0.2
+  _worldSound: {fileID: 8300000, guid: 6d1d163bb39163e46a0a621ac88d5d36, type: 3}
+  _fogDensity: 0.15

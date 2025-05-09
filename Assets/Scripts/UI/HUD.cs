@@ -65,7 +65,7 @@ public class HUD : MonoBehaviour
     {
         DisableHUD();
         CoderMethods.IsMoving = true;
-        float moveAmount = 1;
+        float moveAmount = 0.5f;
         if (amount < 0)
             moveAmount *= -1;
         float amountMoved = 0;
@@ -78,7 +78,8 @@ public class HUD : MonoBehaviour
                 case Enums.Axis.z: transform.position += new Vector3(0, 0, moveAmount); break;
             }
             amountMoved += Mathf.Abs(moveAmount);
-            yield return new WaitForSeconds((Mathf.Abs(moveAmount) / speed) * Time.deltaTime);
+            yield return null;
+            //yield return new WaitForSeconds((Mathf.Abs(moveAmount) / speed) * Time.deltaTime);
         }
         CoderMethods.IsMoving = false;
         if (!GameManager.Instance.InUI)
@@ -110,7 +111,8 @@ public class HUD : MonoBehaviour
                 case Enums.Axis.z: transform.Rotate(new Vector3(0, 0, rotateAmount)); break;
             }
             degreesRotated += Mathf.Abs(rotateAmount);
-            yield return new WaitForSeconds((Mathf.Abs(rotateAmount) / speed) * Time.deltaTime);
+            yield return null;
+            //yield return new WaitForSeconds((Mathf.Abs(rotateAmount) / speed) * Time.deltaTime);
         }
         CoderMethods.IsMoving = false;
         UpdateFaceDirection();

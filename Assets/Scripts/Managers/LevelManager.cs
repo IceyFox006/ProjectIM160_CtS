@@ -3,7 +3,6 @@
  * Marlow Greenan
  * 3/23/2025
  */
-using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
@@ -17,8 +16,8 @@ public class LevelManager : MonoBehaviour
     [SerializeField] private List<Level> _levels = new List<Level>();
     [SerializeField] private List<GameObject> _levelBoundaries = new List<GameObject>();
     [SerializeField] private int _currentLevel = 0;
-    private bool completedLevel = false;
 
+    private bool completedLevel = false;
     private int _progressionScore = 0;
 
     public int ProgressionScore { get => _progressionScore; set => _progressionScore = value; }
@@ -33,16 +32,22 @@ public class LevelManager : MonoBehaviour
     private void Start()
     {
         instance = this;
-        ResetCharacters(GameManager.Instance.Characters);
+
+        if (StaticData.ManualReset)
+        {
+            SaveCharacterPoints();
+            ResetCharacters(GameManager.Instance.Characters);
+        }
 
         if (!DebugMode)
-            _currentLevel = StaticData.ContinueLevel;
+            _currentLevel = StaticData.CurrentLevel;
         if (_currentLevel > -1 && _currentLevel < _levels.Count)
             LoadLevel();
     }
 
     public void LoadLevel()
     {
+        StaticData.CurrentLevel = _currentLevel;
         _levelLoadScreen.GetComponentInChildren<TMP_Text>().text = (_levels.Count - CurrentLevel).ToString() + " days left.";
         _levelLoadScreen.GetComponent<Animator>().Play("DISABLE", 0, 0f);
         //StartCoroutine(GameManager.Instance.DialogueManager.TypeText(_levelLoadScreen.GetComponentInChildren<TMP_Text>(), (_levels.Count - CurrentLevel).ToString() + " days left."));
@@ -94,6 +99,24 @@ public class LevelManager : MonoBehaviour
     {
         completedLevel= true;
         GameManager.Instance.DialogueManager.StartDialogue(_levels[_currentLevel].OutroDialogue);
+    }
+
+
+    public void SaveCharacterPoints()
+    {
+        StaticData.CharacterPointSaves.Clear();
+        for (int index = 0; index < GameManager.Instance.Characters.Length; index++)
+        {
+            StaticData.CharacterPointSaves.Add(GameManager.Instance.Characters[index].RelationshipScore);
+        }
+    }
+    public void LoadCharacterPoints()
+    {
+        Debug.Log("LOAD");
+        for (int index = 0; index < GameManager.Instance.Characters.Length; index++)
+        {
+            GameManager.Instance.Characters[index].RelationshipScore = StaticData.CharacterPointSaves[index];
+        }
     }
 
     /// <summary>

@@ -14,7 +14,7 @@ public class TitleScreen : MonoBehaviour
     [SerializeField] private Settings _settingsCanvas;
     public void StartGame()
     {
-        StaticData.ContinueLevel = 0;
+        StaticData.CurrentLevel = 0;
         SceneManager.LoadScene(_gameSceneName);
     }
 
@@ -37,5 +37,10 @@ public class TitleScreen : MonoBehaviour
             _settingsCanvas.transform.GetChild(0).gameObject.SetActive(true);
         else
             _settingsCanvas.transform.GetChild(0).gameObject.SetActive(false);
+    }
+    public void Credits()
+    {
+        StaticData.End = Enums.End.None;
+        SceneManager.LoadScene("Credits");
     }
 }

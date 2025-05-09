@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3c3ee2864ffc4be4885e18210bf4d5ce, type: 3}
-  m_Name: Gravestone
+  m_Name: NE
   m_EditorClassIdentifier: 
   _dialogueLines:
   - _requirement:
@@ -20,17 +20,7 @@ MonoBehaviour:
     _effectFlag: 0
     _speakerCharacter: {fileID: 11400000, guid: 5925d862c740c204b8cbcb8c9805d897, type: 2}
     _characterExpression: 0
-    _text: It's a gravestone.
-    _characterRelations: []
-    _responses: []
-  - _requirement:
-      _character: {fileID: 0}
-      _inequalityCheck: 0
-      _score: 0
-    _effectFlag: 0
-    _speakerCharacter: {fileID: 11400000, guid: 5925d862c740c204b8cbcb8c9805d897, type: 2}
-    _characterExpression: 0
-    _text: You can't make out the writing on it from here.
+    _text: It's the corpse of a squirrel.
     _characterRelations: []
     _responses: []
   - _requirement:
@@ -40,7 +30,7 @@ MonoBehaviour:
     _effectFlag: 0
     _speakerCharacter: {fileID: 11400000, guid: cfb9f27ccd4f3f546bc4d850310e0fda, type: 2}
     _characterExpression: 3
-    _text: Whatcha looking at? I don't see anything over there.
+    _text: Hey, what are you looking at?
     _characterRelations: []
     _responses: []
   - _requirement:
@@ -49,8 +39,40 @@ MonoBehaviour:
       _score: 0
     _effectFlag: 0
     _speakerCharacter: {fileID: 11400000, guid: cfb9f27ccd4f3f546bc4d850310e0fda, type: 2}
-    _characterExpression: 5
-    _text: Let's go back to exploring!
+    _characterExpression: 8
+    _text: Wow! That's Nutty! I never thought I'd see him again!
+    _characterRelations: []
+    _responses: []
+  - _requirement:
+      _character: {fileID: 0}
+      _inequalityCheck: 0
+      _score: 0
+    _effectFlag: 0
+    _speakerCharacter: {fileID: 11400000, guid: cfb9f27ccd4f3f546bc4d850310e0fda, type: 2}
+    _characterExpression: 3
+    _text: But why would ma lie about him being on the other side of the rainbow
+      then?
+    _characterRelations: []
+    _responses: []
+  - _requirement:
+      _character: {fileID: 0}
+      _inequalityCheck: 0
+      _score: 0
+    _effectFlag: 0
+    _speakerCharacter: {fileID: 11400000, guid: cfb9f27ccd4f3f546bc4d850310e0fda, type: 2}
+    _characterExpression: 2
+    _text: That's so mean! If I knew he was here the whole time I would have visited!
+    _characterRelations: []
+    _responses: []
+  - _requirement:
+      _character: {fileID: 0}
+      _inequalityCheck: 0
+      _score: 0
+    _effectFlag: 0
+    _speakerCharacter: {fileID: 11400000, guid: cfb9f27ccd4f3f546bc4d850310e0fda, type: 2}
+    _characterExpression: 6
+    _text: It looks like he's sleeping right now though, so we probably shouldn't
+      wake him up.
     _characterRelations: []
     _responses: []
   _activeQuest: {fileID: 0}

@@ -14,11 +14,21 @@ public class InputController : MonoBehaviour
     
     public void OnRESET(InputValue inputValue)
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-        LevelManager.Instance.ResetLevel(LevelManager.Instance.Levels[LevelManager.Instance.CurrentLevel]);
+        if (SceneManager.GetActiveScene().name == "TheWoods")
+        {
+            StaticData.ManualReset = false;
+            LevelManager.Instance.LoadCharacterPoints();
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            LevelManager.Instance.ResetLevel(LevelManager.Instance.Levels[StaticData.CurrentLevel]);
+        }
+        else
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
     public void OnQUIT(InputValue inputValue)
     {
-        GameManager.Instance.Quit();
+        Debug.Log("QUIT");
+        Application.Quit();
+
+        //GameManager.Instance.Quit();
     }
 }

@@ -236,6 +236,7 @@ public class DialogueManager : MonoBehaviour
         _gameManager.HUD.EnableHUD();
         if (LevelManager.Instance.CompletedLevel)
         {
+            LevelManager.Instance.SaveCharacterPoints(); //Saves current character relationship points.
             LevelManager.Instance.CurrentLevel++;
             LevelManager.Instance.ResetLevel(LevelManager.Instance.Levels[LevelManager.Instance.CurrentLevel]);
             LevelManager.Instance.LoadLevel();
@@ -271,6 +272,7 @@ public class DialogueManager : MonoBehaviour
             case Enums.EffectFlag.FadeFromBlack: //Screen fades from black.
                 GameManager.Instance.DialogueBlackScreen.GetComponent<Animator>().Play("DISABLE"); break;
             case Enums.EffectFlag.JumpToLevel1: //Goes to level 1.
+                LevelManager.Instance.SaveCharacterPoints(); //Saves current character relationship points.
                 LevelManager.Instance.CurrentLevel = 1;
                 LevelManager.Instance.ResetLevel(LevelManager.Instance.Levels[1]);
                 LevelManager.Instance.LoadLevel();

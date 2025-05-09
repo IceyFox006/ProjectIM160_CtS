@@ -63,6 +63,7 @@ public static class Enums
     }
     public enum End
     {
+        None,
         Loop,
         EliotLeave,
         Stay,
